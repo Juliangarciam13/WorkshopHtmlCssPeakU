@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
 
 .bg-workshop {
     background-color: #f4f9f9;
@@ -69,6 +70,7 @@ article .btn:hover {
 #hero h1 {
     font-weight: 700;
     font-size: 50px;
+    font-family: 'Volkhov', serif;
 }
 
 #hero article span {
@@ -131,7 +133,7 @@ button {
 }
 
 #things {
-    background-color: #f4f9f9;
+    background-color: #F7F8FC;
     width: 100%;
 }
 
@@ -144,6 +146,7 @@ p {
     margin-top: 70px;
     font-weight: 700;
     background-color: #f4f9f9;
+    font-family: 'Volkhov', serif;
 }
 
 #things span {
@@ -190,6 +193,7 @@ p {
 #exclusive h2 {
     text-align: center;
     font-weight: 700;
+    font-family: 'Volkhov', serif;
 }
 
 #exclusive h2 span {
@@ -204,6 +208,7 @@ p {
     text-align: center;
     font-weight: 700;
     margin-top: 80px;
+    font-family: 'Volkhov', serif;
 }
 
 #vacation h2 span {
@@ -211,7 +216,6 @@ p {
 }
 
 #vacation .card-vacation {
-    margin-top: 90px;
     margin-top: 90px;
 }
 
@@ -232,12 +236,13 @@ p {
 }
 
 #about {
-    background-color: #f4f9f9;
+    background-color: #f7f8fc;
 }
 
 #about h2 {
     margin-top: 90px;
     font-weight: 700;
+    font-family: 'Volkhov', serif;
 }
 
 #about h2 span {
@@ -288,6 +293,10 @@ p {
 
 .form-control::placeholder {
     color: #ccc;
+}
+
+.newsletter h2 {
+    font-family: 'Volkhov', serif;
 }
 
 form {
